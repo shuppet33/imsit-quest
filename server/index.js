@@ -1,12 +1,11 @@
-import express, {Router} from 'express'
+import express from 'express'
+import {router} from "./routes.js";
 
 const app = express()
 
 app.use(express.json())
+app.use('/api', router)
 
-app.get('/api', (req, res) => {
-    res.json({a: 5})
-})
 
 
 app.listen(5000, () => {
