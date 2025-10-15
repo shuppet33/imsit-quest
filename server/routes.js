@@ -1,5 +1,5 @@
 import {Router} from "express";
-import {UsersDB} from "./db/db.js";
+// import {UsersDB} from "./db/db.js";
 import bcrypt from "bcrypt";
 const salt = "qweqwfhkehgfjhegwfj"
 export const router = new Router()
