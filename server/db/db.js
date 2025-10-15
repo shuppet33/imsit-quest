@@ -18,11 +18,4 @@ export const teams = [
         order: [0, 1, 2, 3],
         currentTaskIndex: 0,
     },
-    {
-        name: "dedsec",
-        password: '2VxOuk',
-        order: [0, 1, 2, 3],
-        currentTaskIndex: 0,
-        finished: false
-    }
 ];
